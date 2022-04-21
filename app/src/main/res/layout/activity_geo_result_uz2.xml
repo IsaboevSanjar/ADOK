@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    tools:context=".geo.geoquestions1.r.geoquestions2.result2.GeoResultUz2">
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/aladin"
+            android:gravity="center"
+            android:text="Geografiya"
+            android:textColor="@color/purple_700"
+            android:textSize="60sp" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/math_brain_result"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_marginTop="400dp"
+            android:visibility="visible"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/geography_globus" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/result_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="300dp"
+        android:fontFamily="@font/aladin"
+        android:textColor="@color/purple_700"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/frame_try_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/try_again_textview"
+            android:layout_width="166dp"
+            android:layout_height="77dp"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/try_again"
+            android:fontFamily="@font/aladin"
+            android:gravity="center"
+            android:text="Yana o'ynash"
+            android:textColor="#fff"
+            android:textSize="35sp"
+
+            />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_next_step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/congratulation" />
+
+        <TextView
+            android:id="@+id/next_step_textview"
+            android:layout_width="166dp"
+            android:layout_height="77dp"
+            android:layout_gravity="end|center"
+            android:layout_marginEnd="33dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/next_step_green"
+            android:fontFamily="@font/aladin"
+            android:gravity="center"
+            android:text="Keyingisi"
+            android:textColor="#fff"
+            android:textSize="35sp"
+
+            />
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

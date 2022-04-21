@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uz.sanjar.adok">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GeoGameQuiz.NoActionBarAndStatusBar">
+        <activity
+            android:name="uz.sanjar.adok.geo.geoquestions1.r.geoquestions2.result2.GeoResultUz2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.geo.geoquestions1.r.geoquestions2.result2.GeoResultEng2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.geo.geoquestions1.r.geoquestions2.GeoUzbekActivity2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.geo.geoquestions1.r.geoquestions2.GeoEnglishActivity2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.geo.geoquestions1.r.result.GeoResultUz"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.geo.geoquestions1.r.result.GeoResultEng"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.islam.i.ilamquestions1.result.IslamResultUz"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.islam.i.ilamquestions1.islamquestion2.IslamUzbekActivity2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.islam.i.ilamquestions1.islamquestion2.result2.IslamResultUz2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.islam.i.ilamquestions1.islamquestion2.result2.IslamResultEng2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.islam.i.ilamquestions1.islamquestion2.IslamEnglishActivity2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.islam.i.ilamquestions1.result.IslamResultEng"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.math.mathquestions2.result2.MathResultUzbek2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.math.mathquestions2.MathActivityUzbek2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.math.mathquestions1.MathActivityUzbek"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.math.mathquestions2.result2.MathResultEng2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.math.mathquestions2.MathActivityEng2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.math.mathquestions1.result.MathResultUz"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.math.mathquestions1.result.MathResultEng"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.islam.i.ilamquestions1.IslamUzbekActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.math.mathquestions1.MathActivityEng"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.geo.geoquestions1.r.GeoUzbekActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.start.StartLanguage"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.start.StartActivityUzbek"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.info.InfoActivityEnglish"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.islam.i.ilamquestions1.IslamEnglishActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="uz.sanjar.adok.start.StartActivityEnglish"
+            android:exported="false"
+            android:screenOrientation="portrait">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="uz.sanjar.adok.SplashScreenActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="uz.sanjar.adok.geo.geoquestions1.r.GeoEnglishActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
